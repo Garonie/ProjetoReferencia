@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 
 
 public class CriarContaPage {
+	
 
 	public CriarContaPage() {
 		PageFactory.initElements(driver, this);

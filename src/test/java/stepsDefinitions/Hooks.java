@@ -20,7 +20,7 @@ public class Hooks {
 	 @After(order = 1)
 	    public void afterScenario(Scenario scenario){
 		 gerarScreenShot(scenario);
-		driver.quit();
+//		driver.quit();
 	    }
 	 
 	 @After(order = 0, value = "@FTCriarConta")

@@ -1,6 +1,8 @@
 package stepsDefinitions;
 
+import java.util.ArrayList;
 import java.util.Map;
+import java.util.Random;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.pt.Dado;
@@ -17,11 +19,17 @@ public class CriarContaSteps {
 	public void que_eu_cliquei_em_Signi() {
 		cp.clicarNoBotaoSignin();
 	}
-	
+
 	@Dado("^que eu informei o email do cadastro \"([^\"]*)\"$")
 	public void queEuInformeiOEmailDoCadastro(String string) throws Throwable {
-		cp.preencherCampoEmail(string);
-		cp.botaoCriarConta.click();
+		
+		Random aleatorio = new Random();
+		String email = aleatorio.toString();
+		cp.preencherCampoEmail(email +"@gmail.com");
+		
+		
+		
+//		cp.botaoCriarConta.click();
 	}
 
 	@Dado("informar o Title {string}")
