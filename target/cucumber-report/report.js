@@ -45,7 +45,8 @@ formatter.match({
   "location": "CriarContaSteps.informar_o_Title(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#id_gender1\"}\n  (Session info: chrome\u003d80.0.3987.149)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.0\u0027, revision: \u00272ecb7d9a\u0027, time: \u00272018-10-31T20:09:30\u0027\nSystem info: host: \u0027DESKTOP-4CFF26I\u0027, ip: \u002710.0.0.113\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\\Users\\garon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54519}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1c301d09ba002b3bdfbefb4a8df3dd9d\n*** Element info: {Using\u003did, value\u003did_gender1}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy40.click(Unknown Source)\r\n\tat pageObjects.CriarContaPage.informarTitle(CriarContaPage.java:125)\r\n\tat stepsDefinitions.CriarContaSteps.informar_o_Title(CriarContaSteps.java:29)\r\n\tat ✽.informar o Title \"Mr\"(file:src/test/resources/features/FT_001_CriarConta.feature:9)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "informar o primeiro nome \"Personal First name\"",
@@ -55,7 +56,7 @@ formatter.match({
   "location": "CriarContaSteps.informar_o_primeiro_nome(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar o ultimo nome \"First \"",
@@ -65,7 +66,7 @@ formatter.match({
   "location": "CriarContaSteps.informar_o_ultimo_nome(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar o password \"101010\"",
@@ -75,7 +76,7 @@ formatter.match({
   "location": "CriarContaSteps.informar_o_password(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar data de nascimento:",
@@ -105,7 +106,7 @@ formatter.match({
   "location": "CriarContaSteps.informarDataDeNascimento(DataTable)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "clicar em assinar o newsletter",
@@ -115,7 +116,7 @@ formatter.match({
   "location": "CriarContaSteps.clicar_em_assinar_o_newsletter()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "clicar em receber",
@@ -125,7 +126,7 @@ formatter.match({
   "location": "CriarContaSteps.clicar_em_receber()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar o primeiro nome do endereco \"Qnf\"",
@@ -135,7 +136,7 @@ formatter.match({
   "location": "CriarContaSteps.informar_o_primeiro_nome_do_endereco(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar o Ultimo nome do endereco \"todos\"",
@@ -145,7 +146,7 @@ formatter.match({
   "location": "CriarContaSteps.informar_o_Ultimo_nome_do_endereco(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar a companhia \"Spread\"",
@@ -155,7 +156,7 @@ formatter.match({
   "location": "CriarContaSteps.informarACompanhia(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar o endereco \"d\"",
@@ -165,7 +166,7 @@ formatter.match({
   "location": "CriarContaSteps.informar_o_endereco(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar o endereco linha \"dasdfasdf\"",
@@ -175,7 +176,7 @@ formatter.match({
   "location": "CriarContaSteps.informarOEnderecoLinha(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar a cidade \"Vicente Pires\"",
@@ -185,7 +186,7 @@ formatter.match({
   "location": "CriarContaSteps.informar_a_cidade(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar o estado \"df\"",
@@ -195,7 +196,7 @@ formatter.match({
   "location": "CriarContaSteps.informar_o_estado(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar o zip code \"00000\"",
@@ -205,7 +206,7 @@ formatter.match({
   "location": "CriarContaSteps.informar_o_zip_code(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar a coutry \"Brasslia\"",
@@ -215,7 +216,7 @@ formatter.match({
   "location": "CriarContaSteps.informar_a_coutry(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar informacoes adicionais \"Ao Vasco tudo!\"",
@@ -225,7 +226,7 @@ formatter.match({
   "location": "CriarContaSteps.informarInformacoesAdicionais(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar o telefone \"99999-9999\"",
@@ -235,7 +236,7 @@ formatter.match({
   "location": "CriarContaSteps.informar_o_telefone(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "informar o endereco de referencia \"teste\"",
@@ -245,7 +246,7 @@ formatter.match({
   "location": "CriarContaSteps.informarOEnderecoDeReferencia(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "eu clicar no botao Registrar",
@@ -255,7 +256,7 @@ formatter.match({
   "location": "CriarContaSteps.eu_clicar_no_botao_Registrar()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "o sistema apresenta a tela de boas vinda da conta criada",
@@ -265,7 +266,7 @@ formatter.match({
   "location": "CriarContaSteps.o_sistema_apresenta_a_tela_de_boas_vinda_da_conta_criada()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
