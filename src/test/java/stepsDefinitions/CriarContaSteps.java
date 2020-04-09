@@ -22,14 +22,13 @@ public class CriarContaSteps {
 
 	@Dado("^que eu informei o email do cadastro \"([^\"]*)\"$")
 	public void queEuInformeiOEmailDoCadastro(String string) throws Throwable {
-		
+
 		Random aleatorio = new Random();
-		String email = aleatorio.toString();
-		cp.preencherCampoEmail(email +"@gmail.com");
-		
-		
-		
-//		cp.botaoCriarConta.click();
+		int numero = aleatorio.nextInt(1000);// aqui gera um numero aleatório
+		String email = "t";// parte fixa do email
+		cp.preencherCampoEmail(email = email.concat(numero + "@gmail.com"));// agora ele é concatenado e retorna uma
+																			// nova String com o email
+		cp.botaoCriarConta.click();
 	}
 
 	@Dado("informar o Title {string}")

@@ -5,7 +5,7 @@ Funcionalidade: FT_001CriarConta
  @FTCriarConta
   Cenario: Criar conta
     Dado que eu cliquei em Signi
-    Dado que eu informei o email do cadastro ""
+    Dado que eu informei o email do cadastro "teset"
     #E informar o Title "Mr"
     #E informar o primeiro nome "Personal First name"
     #E informar o ultimo nome "First "

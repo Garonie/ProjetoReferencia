@@ -28,7 +28,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "que eu informei o email do cadastro \"\"",
+  "name": "que eu informei o email do cadastro \"teset\"",
   "keyword": "Dado "
 });
 formatter.match({
