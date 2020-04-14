@@ -1,23 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runners.RunnerTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 24.18 s <<< FAILURE! - in runners.RunnerTest
-Criar conta(FT_001CriarConta)  Time elapsed: 23.712 s  <<< ERROR!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#id_gender1"}
-  (Session info: chrome=80.0.3987.149)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
-System info: host: 'DESKTOP-4CFF26I', ip: '10.0.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\garon\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54519}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1c301d09ba002b3bdfbefb4a8df3dd9d
-*** Element info: {Using=id, value=id_gender1}
-
-Criar conta(FT_001CriarConta)  Time elapsed: 23.716 s  <<< ERROR!
-org.openqa.selenium.NoSuchSessionException: 
-Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
-System info: host: 'DESKTOP-4CFF26I', ip: '10.0.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.463 sec - in runners.RunnerTest

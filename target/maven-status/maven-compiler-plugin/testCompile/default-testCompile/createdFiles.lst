@@ -1,6 +1,6 @@
 stepsDefinitions\Hooks.class
-pageObjects\CriarContaPage.class
 utils\Utils.class
-stepsDefinitions\CriarContaSteps.class
 stepsDefinitions\TesteSteps.class
+pageObjects\CriarContaPage.class
+stepsDefinitions\CriarContaSteps.class
 runners\RunnerTest.class

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.RunnerTest" time="24.18" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.RunnerTest" time="39.463" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_241\bin"/>
     <property name="java.vm.version" value="25.241-b07"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:/Users/garon/eclipse-workspace/testesAutomatizados/testesAutomatizados"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\garon\eclipse-workspace\testesAutomatizados\testesAutomatizados"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -27,23 +27,23 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\garon\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\garon\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Java\jdk1.8.0_241\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\garon\scoop\apps\gcc\current\bin;C:\Users\garon\scoop\shims;C:\Users\garon\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.6.3\bin;C:\Users\garon\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\garon\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\garon\scoop\apps\gcc\current\bin;C:\Users\garon\scoop\shims;C:\Users\garon\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.6.3\bin;C:\Users\garon\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\garon\AppData\Local\GitHubDesktop\bin;."/>
     <property name="surefire.test.class.path" value="C:\Users\garon\eclipse-workspace\testesAutomatizados\testesAutomatizados\target\test-classes;C:\Users\garon\eclipse-workspace\testesAutomatizados\testesAutomatizados\target\classes;C:\Users\garon\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.0\selenium-java-3.141.0.jar;C:\Users\garon\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\garon\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\garon\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.0\selenium-edge-driver-3.141.0.jar;C:\Users\garon\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.0\selenium-firefox-driver-3.141.0.jar;C:\Users\garon\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.0\selenium-ie-driver-3.141.0.jar;C:\Users\garon\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.0\selenium-opera-driver-3.141.0.jar;C:\Users\garon\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.0\selenium-remote-driver-3.141.0.jar;C:\Users\garon\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.0\selenium-safari-driver-3.141.0.jar;C:\Users\garon\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.0\selenium-support-3.141.0.jar;C:\Users\garon\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\garon\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\garon\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\garon\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\garon\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\garon\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\garon\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\garon\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\garon\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\garon\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\garon\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\garon\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\garon\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\garon\.m2\repository\io\cucumber\cucumber-junit\4.7.2\cucumber-junit-4.7.2.jar;C:\Users\garon\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\garon\.m2\repository\io\cucumber\cucumber-core\4.7.2\cucumber-core-4.7.2.jar;C:\Users\garon\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\garon\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\garon\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\garon\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\garon\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\garon\.m2\repository\io\cucumber\cucumber-java\4.7.2\cucumber-java-4.7.2.jar;C:\Users\garon\.m2\repository\io\qameta\allure\allure-junit4\2.11.0\allure-junit4-2.11.0.jar;C:\Users\garon\.m2\repository\io\qameta\allure\allure-java-commons\2.11.0\allure-java-commons-2.11.0.jar;C:\Users\garon\.m2\repository\io\qameta\allure\allure-model\2.11.0\allure-model-2.11.0.jar;C:\Users\garon\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\garon\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\garon\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\garon\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\garon\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\garon\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;"/>
-    <property name="maven.conf" value="C:/apache-maven-3.6.3/conf"/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\garon"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="garon"/>
-    <property name="java.class.path" value="C:/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jre1.8.0_241"/>
@@ -56,187 +56,17 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_241\lib\resources.jar;C:\Program Files\Java\jre1.8.0_241\lib\rt.jar;C:\Program Files\Java\jre1.8.0_241\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_241\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_241\lib\jce.jar;C:\Program Files\Java\jre1.8.0_241\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_241\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_241\classes"/>
     <property name="webdriver.chrome.driver" value="src/test/resources/driver/chromedriver.exe"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\apache-maven-3.6.3"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3\bin\.."/>
     <property name="localRepository" value="C:\Users\garon\.m2\repository"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Criar conta" classname="FT_001CriarConta" time="23.712">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#id_gender1&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;&#10;System info: host: &apos;DESKTOP-4CFF26I&apos;, ip: &apos;10.0.0.113&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\garon\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54519}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 1c301d09ba002b3bdfbefb4a8df3dd9d&#10;*** Element info: {Using=id, value=id_gender1}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#id_gender1"}
-  (Session info: chrome=80.0.3987.149)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
-System info: host: 'DESKTOP-4CFF26I', ip: '10.0.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\garon\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54519}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1c301d09ba002b3bdfbefb4a8df3dd9d
-*** Element info: {Using=id, value=id_gender1}
-</error>
-    <system-out><![CDATA[Funcionalidade: FT_001CriarConta
-
-  @FTCriarConta
-  Cenario: Criar conta                                                   # src/test/resources/features/FT_001_CriarConta.feature:6
-    Dado que eu cliquei em Signi                                         # CriarContaSteps.que_eu_cliquei_em_Signi()
-    Dado que eu informei o email do cadastro "ddsdaidlaasdfna@gmail.com" # CriarContaSteps.queEuInformeiOEmailDoCadastro(String)
-    E informar o Title "Mr"                                              # CriarContaSteps.informar_o_Title(String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#id_gender1"}
-  (Session info: chrome=80.0.3987.149)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
-System info: host: 'DESKTOP-4CFF26I', ip: '10.0.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\garon\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54519}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1c301d09ba002b3bdfbefb4a8df3dd9d
-*** Element info: {Using=id, value=id_gender1}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy40.click(Unknown Source)
-	at pageObjects.CriarContaPage.informarTitle(CriarContaPage.java:125)
-	at stepsDefinitions.CriarContaSteps.informar_o_Title(CriarContaSteps.java:29)
-	at ?.informar o Title "Mr"(file:src/test/resources/features/FT_001_CriarConta.feature:9)
-
-    E informar o primeiro nome "Personal First name"                     # CriarContaSteps.informar_o_primeiro_nome(String)
-    E informar o ultimo nome "First "                                    # CriarContaSteps.informar_o_ultimo_nome(String)
-    E informar o password "101010"                                       # CriarContaSteps.informar_o_password(String)
-    E informar data de nascimento:                                       # CriarContaSteps.informarDataDeNascimento(DataTable)
-    E clicar em assinar o newsletter                                     # CriarContaSteps.clicar_em_assinar_o_newsletter()
-    E clicar em receber                                                  # CriarContaSteps.clicar_em_receber()
-    E informar o primeiro nome do endereco "Qnf"                         # CriarContaSteps.informar_o_primeiro_nome_do_endereco(String)
-    E informar o Ultimo nome do endereco "todos"                         # CriarContaSteps.informar_o_Ultimo_nome_do_endereco(String)
-    E informar a companhia "Spread"                                      # CriarContaSteps.informarACompanhia(String)
-    E informar o endereco "d"                                            # CriarContaSteps.informar_o_endereco(String)
-    E informar o endereco linha "dasdfasdf"                              # CriarContaSteps.informarOEnderecoLinha(String)
-    E informar a cidade "Vicente Pires"                                  # CriarContaSteps.informar_a_cidade(String)
-    E informar o estado "df"                                             # CriarContaSteps.informar_o_estado(String)
-    E informar o zip code "00000"                                        # CriarContaSteps.informar_o_zip_code(String)
-    E informar a coutry "Brasslia"                                       # CriarContaSteps.informar_a_coutry(String)
-    E informar informacoes adicionais "Ao Vasco tudo!"                   # CriarContaSteps.informarInformacoesAdicionais(String)
-    E informar o telefone "99999-9999"                                   # CriarContaSteps.informar_o_telefone(String)
-    E informar o endereco de referencia "teste"                          # CriarContaSteps.informarOEnderecoDeReferencia(String)
-    Quando eu clicar no botao Registrar                                  # CriarContaSteps.eu_clicar_no_botao_Registrar()
-    Entao o sistema apresenta a tela de boas vinda da conta criada       # CriarContaSteps.o_sistema_apresenta_a_tela_de_boas_vinda_da_conta_criada()
-      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
-System info: host: 'DESKTOP-4CFF26I', ip: '10.0.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at utils.Utils.evidencia(Utils.java:69)
-	at stepsDefinitions.Hooks.support(Hooks.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:26)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:20)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)
-	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
-	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
-	at cucumber.runner.TestStep.run(TestStep.java:50)
-	at cucumber.runner.TestCase.run(TestCase.java:50)
-	at cucumber.runner.Runner.runPickle(Runner.java:50)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
-	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1060)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:907)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:785)
-	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
-	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
-	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
-	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
-	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
-	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
-	at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
-
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 79.0.3945.16 (93fcc21110c10dbbd49bbff8f472335360e31d05-refs/branch-heads/3945@{#262}) on port 6856
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1586364094.447][WARNING]: This version of ChromeDriver has not been tested with Chrome version 80.
-[1586364096.451][WARNING]: Timed out connecting to Chrome, retrying...
-abr 08, 2020 1:41:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMAÇÕES: Detected dialect: W3C
-[1586364100.517][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="Criar conta" classname="FT_001CriarConta" time="23.716">
-    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;&#10;System info: host: &apos;DESKTOP-4CFF26I&apos;, ip: &apos;10.0.0.113&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
-Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
-System info: host: 'DESKTOP-4CFF26I', ip: '10.0.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver
-</error>
-  </testcase>
+  <testcase name="Criar conta" classname="FT_001CriarConta" time="39.05"/>
 </testsuite>
