@@ -1,14 +1,10 @@
 package stepsDefinitions;
 
-import java.util.ArrayList;
 import java.util.Map;
 import java.util.Random;
 
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.E;
-import io.cucumber.java.pt.Entao;
-import io.cucumber.java.pt.Quando;
+import io.cucumber.java.pt.*;
 import pageObjects.CriarContaPage;
 
 public class CriarContaSteps {

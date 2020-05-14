@@ -25,7 +25,7 @@ public class Utils {
 	public static WebDriver driver;
 
 	public static void acessarSistema() {
-		System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver_win32/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
