@@ -1,6 +1,6 @@
 package stepsDefinitions;
 
-import static utils.Utils.acessarSistema;
+import static pageObjects.LoginPage.acessarSistema;
 import static utils.Utils.driver;
 import static utils.Utils.gerarScreenShot;
 import static utils.Utils.*;
@@ -23,7 +23,7 @@ public class Hooks {
 		driver.quit();
 	    }
 	 
-	 @After(order = 0, value = "@FTCriarConta")
+	 @After(order = 0, value = "@")
 		public void support(Scenario scenario) throws InterruptedException {
 			evidencia(scenario);
 			Utils.capturarTela(scenario);

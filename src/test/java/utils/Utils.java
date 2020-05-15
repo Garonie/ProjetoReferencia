@@ -19,18 +19,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.core.api.Scenario;
 import io.qameta.allure.Allure;
 
-
 public class Utils {
 
 	public static WebDriver driver;
-
-	public static void acessarSistema() {
-		System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver_win32/chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		driver.get("http://automationpractice.com/index.php");
-	}
 
 	public static void anexar(String path) {
 		driver.findElement(By.xpath("//*[@id=\"uploadFile\"]"));
@@ -39,34 +30,36 @@ public class Utils {
 		fileInput.sendKeys(path);
 	}
 
-	public static void capturarTela (Scenario scenario) {
+	public static void capturarTela(Scenario scenario) {
 		File screenshot = gerarScreenShot(scenario);
 		embedScreenshot(screenshot, scenario.getName());
 	}
-	
-	public static File gerarScreenShot(Scenario scenario){
+
+	public static File gerarScreenShot(Scenario scenario) {
 		final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-		 scenario.embed(screenshot, "image/png");
-		  File imagem = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		  try {
-		    FileUtils.copyFile(imagem, (new File("./target/surefire-reports", scenario.getName() + " - " + scenario.getStatus()+ ".png")));
-		  } catch (IOException e) {
-		   e.printStackTrace();
-		  }
-		  return imagem;
+		scenario.embed(screenshot, "image/png");
+		File imagem = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(imagem, (new File("./target/surefire-reports",
+					scenario.getName() + " - " + scenario.getStatus() + ".png")));
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
-	
+		return imagem;
+	}
+
 	public static void embedScreenshot(File file, String description) {
-		  Path content = Paths.get(file.getPath());
-		  try (InputStream is = Files.newInputStream(content)) {
-		    Allure.addAttachment(description, is);
-		  } catch (IOException e) {
-		    e.printStackTrace();
-		  }
+		Path content = Paths.get(file.getPath());
+		try (InputStream is = Files.newInputStream(content)) {
+			Allure.addAttachment(description, is);
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
+	}
+
 	public static void evidencia(Scenario scenario) {
 //      if (scenario.isFailed()) {
-          scenario.embed(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES), "image/png");
+		scenario.embed(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png");
 //      }
 	}
 

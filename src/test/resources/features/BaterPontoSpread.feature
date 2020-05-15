@@ -2,10 +2,10 @@
 #enconding: UTF-8
 Funcionalidade: Bater ponto
 
-  @FTBaterPOnto
+  @FTBaterPonto
   Cenario: Bater ponto
     Dado que loguei no apontamento de horas
-    E eu informar os apontamentos da manha:
+    E eu informar os apontamentos da manha: 
       | Motivo     | Home Office |
       | Hr. Inicio | 10:00       |
       | Hr. Fim    | 14:00       |

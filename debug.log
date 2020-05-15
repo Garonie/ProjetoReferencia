@@ -4,3 +4,6 @@
 [0514/091344.290:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
 [0514/091720.510:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
 [0514/091736.578:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0515/102711.730:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0515/183251.597:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0515/184547.286:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
