@@ -8,11 +8,11 @@ import pageObjects.LoginPage;
 
 public class TesteSteps {
 	
-	LoginPage lp = new LoginPage();
+	
 
 	@Dado("que eu acesse o sistema")
 	public void que_eu_acesse_o_sistema() {
-		lp.acessarSistema();
+		
 	}
 
 	@E("^anexar o arquivo$")

@@ -1,6 +1,5 @@
 package stepsDefinitions;
 
-import static pageObjects.LoginPage.acessarSistema;
 import static utils.Utils.driver;
 import static utils.Utils.gerarScreenShot;
 import static utils.Utils.*;
@@ -13,7 +12,7 @@ import utils.Utils;
 public class Hooks {
 	
 	 @Before
-	    public void beforeScenario(){
+	    public void beforeScenario() throws InterruptedException{
 	       acessarSistema();
 	    } 
 	 
