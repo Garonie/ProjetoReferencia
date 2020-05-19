@@ -11,6 +11,8 @@ public class BaterPontoSteps {
 
 	@Dado("que loguei no apontamento de horas")
 	public void que_loguei_no_apontamento_de_horas() {
+		
+		
 	}
 
 	@Dado("eu informar os apontamentos da manha:")
