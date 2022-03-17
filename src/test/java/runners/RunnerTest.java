@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 				plugin = {"pretty","html:target/cucumber-report", "json:target/cucumber-report/cucumber.json" },
 				features = "src/test/resources/features/", 
 				glue = "stepsDefinitions", 
-				tags = {"@CE001CadastrarStartup"}, 
+				//tags = {"@CE001CadastrarStartup"}, 
 				snippets = SnippetType.CAMELCASE, 
 				monochrome = true, 
 				dryRun = false)

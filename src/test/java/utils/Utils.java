@@ -29,7 +29,7 @@ public class Utils {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		driver.get("https://sinov-angular-des-esteiras.nprd2.caixa/");
+		driver.get("https://advantageonlineshopping.com");
 	}
 
 	public static <T> T Na(Class<T> classe) {
